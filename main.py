@@ -1,8 +1,8 @@
-from cnnClassifier import logger
-from src.cnnClassifier.config.configuration import ConfigurationManager
-from src.cnnClassifier.pipeline.stage_data_ingestion import DataIngestionTrainingPipeline
-from cnnClassifier.pipeline.stage_prepare_base_model import PrepareBaseModelTrainingPipeline
-from cnnClassifier.pipeline.stage_model_training import ModelTrainingPipeline
+from Classifer_Package import logger
+from Classifer_Package.config.configuration import ConfigurationManager
+from Classifer_Package.pipeline.stage_data_ingestion import DataIngestionTrainingPipeline
+from Classifer_Package.pipeline.stage_prepare_base_model import PrepareBaseModelTrainingPipeline
+from Classifer_Package.pipeline.stage_model_training import ModelTrainingPipeline
 
 
 

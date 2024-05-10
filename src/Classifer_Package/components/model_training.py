@@ -4,7 +4,7 @@ from zipfile import ZipFile
 import tensorflow as tf
 import time
 from pathlib import Path
-from cnnClassifier.entity.config_entity import TrainingConfig
+from Classifer_Package.entity.config_entity import TrainingConfig
 
 
 class Training:
