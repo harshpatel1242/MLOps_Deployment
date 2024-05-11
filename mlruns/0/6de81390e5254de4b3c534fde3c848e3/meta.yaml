@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/MLOps_Deployment/mlruns/0/6de81390e5254de4b3c534fde3c848e3/artifacts
+end_time: 1715450720001
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6de81390e5254de4b3c534fde3c848e3
+run_name: rumbling-deer-431
+run_uuid: 6de81390e5254de4b3c534fde3c848e3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1715450704686
+status: 3
+tags: []
+user_id: harsh
