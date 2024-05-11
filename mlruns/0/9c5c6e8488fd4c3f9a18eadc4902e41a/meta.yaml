@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/MLOps_Deployment/mlruns/0/9c5c6e8488fd4c3f9a18eadc4902e41a/artifacts
+end_time: 1715400289192
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9c5c6e8488fd4c3f9a18eadc4902e41a
+run_name: likeable-sloth-97
+run_uuid: 9c5c6e8488fd4c3f9a18eadc4902e41a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1715400265014
+status: 3
+tags: []
+user_id: harsh
