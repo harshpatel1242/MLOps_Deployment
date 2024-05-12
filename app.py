@@ -31,6 +31,7 @@ def home():
 @cross_origin()
 def trainRoute():
     os.system("python main.py")
+    
     # os.system("dvc repro")
     return "Training done successfully!"
 
