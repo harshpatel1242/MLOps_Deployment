@@ -30,7 +30,7 @@ Continuous Integration and Continuous Deployment (CI/CD) pipelines are implement
 
 ## Pipeline Flow 📊
 
-![Pipeline Flow]([https://raw.githubusercontent.com/username/repository/branch/path/to/Pipeline_Flow.png](https://github.com/harshpatel1242/MLOps_Deployment/blob/master/Pipeline_Flow.PNG))
+![Pipeline Flow](https://github.com/harshpatel1242/MLOps_Deployment/blob/master/Pipeline_Flow.PNG)
 
 ## Project Repository 📁
 
