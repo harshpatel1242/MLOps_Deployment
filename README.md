@@ -1,10 +1,12 @@
 # MLOps Deployment Project 🚀
 
-This project implements a modular approach for machine learning operations (MLOps) using various tools and services. Below are the key components and tools used in this project:
+This project implements a modular object-oriented Pythonic approach to writing code, creating files like `config.yaml`, a utils file, and a configuration manager file to handle all configurations. Additionally, a components folder was created for strategies and two pipelines were implemented: training and prediction. The training pipeline includes data ingestion, base model creation, model training, and evaluation.
+
+DVC orchestrates the pipeline, while MLflow manages model registry. Two images are included: one for all model experiments and one for model comparison. Docker is used for containerization. GitHub Actions and runners facilitate CI/CD, followed by deployment on AWS with EC2 and ECR.
 
 ## Modular Approach 🔧
 
-The project follows a modular approach, organized into components and pipelines. It includes:
+The project follows a modular approach, organized into components and pipelines:
 
 - **Config YAML File:** Contains configuration parameters for the project.
 - **Components:** Individual modules or functions that perform specific tasks.
@@ -38,6 +40,10 @@ The complete project code and resources can be accessed on Dagshub:
 
 [Link to Dagshub Repository](https://dagshub.com/harshpatel1242/MLOps_Deployment)
 
+## MLflow Experiments & Comaprisions 📁
+![MLFlow_Exp](https://github.com/harshpatel1242/MLOps_Deployment/blob/master/MLFlow_Exp.PNG)
+![Model_Comparision](https://github.com/harshpatel1242/MLOps_Deployment/blob/master/Model_Comparision.PNG)
+
 ## AWS Services ☁️
 
 The project utilizes AWS Free Tier services for cloud computing, including EC2 for hosting and ECR for Docker image management. Make sure to manage resources within the Free Tier limits.
@@ -46,11 +52,10 @@ The project utilizes AWS Free Tier services for cloud computing, including EC2 f
 
 All project artifacts, including data, models, and logs, are stored on Google Drive.
 
-Feel free to explore the project repository for more details and contributions.
-
 ## Data Access 📊
 
 The project's data can be accessed from Google Drive using the following link:
 
 [Google Drive Data Link](https://drive.google.com/file/d/1Q02T8c6-BRC32TbSFqZdLpR9UdVeVpHS/view?usp=drive_link)
 
+Feel free to explore the project repository for more details and contributions.
