@@ -8,7 +8,7 @@ __version__ = "0.0.0"
 
 REPO_NAME = "MLOps_Deployment"
 AUTHOR_USER_NAME = "harshpatel1242"
-SRC_REPO = "cnnClassifier"
+SRC_REPO = "Classifer_Package"
 AUTHOR_EMAIL = "harshpatel1242@gmail.com"
 
 
@@ -17,7 +17,7 @@ setuptools.setup(
     version=__version__,
     author=AUTHOR_USER_NAME,
     author_email=AUTHOR_EMAIL,
-    description="A small python package for CNN app",
+    description="Python package for lung tumor detection",
     long_description=long_description,
     long_description_content="text/markdown",
     url=f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}",

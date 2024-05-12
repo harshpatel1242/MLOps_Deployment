@@ -41,7 +41,7 @@ stages:
     outs:
     - path: artifacts/prepare_base_model
       hash: md5
-      md5: 6c9ae764d65d240e0d5db55dfb12f67c.dir
+      md5: ee1607695b4073feba7744c69b50b6b8.dir
       size: 118054560
       nfiles: 2
   training:
@@ -54,7 +54,7 @@ stages:
       nfiles: 465
     - path: artifacts/prepare_base_model
       hash: md5
-      md5: 6c9ae764d65d240e0d5db55dfb12f67c.dir
+      md5: ee1607695b4073feba7744c69b50b6b8.dir
       size: 118054560
       nfiles: 2
     - path: config/config.yaml
@@ -68,8 +68,8 @@ stages:
     params:
       params.yaml:
         AUGMENTATION: true
-        BATCH_SIZE: 24
-        EPOCHS: 2
+        BATCH_SIZE: 16
+        EPOCHS: 1
         IMAGE_SIZE:
         - 224
         - 224
@@ -77,7 +77,7 @@ stages:
     outs:
     - path: artifacts/training/model.h5
       hash: md5
-      md5: 5697546bd7df5f8373a32ffd9a855e6a
+      md5: 0b45e9d8841a6aeda994d480f0ca5724
       size: 59337520
   evaluation:
     cmd: python src/Classifer_Package/pipeline/stage_model_evaluation.py
@@ -89,7 +89,7 @@ stages:
       nfiles: 465
     - path: artifacts/training/model.h5
       hash: md5
-      md5: 5697546bd7df5f8373a32ffd9a855e6a
+      md5: 00636781d4fa57a19a08d67a78e6c066
       size: 59337520
     - path: config/config.yaml
       hash: md5
@@ -101,7 +101,7 @@ stages:
       size: 914
     params:
       params.yaml:
-        BATCH_SIZE: 24
+        BATCH_SIZE: 16
         IMAGE_SIZE:
         - 224
         - 224
@@ -109,5 +109,5 @@ stages:
     outs:
     - path: scores.json
       hash: md5
-      md5: 7218101061d67939ac241417856a7b4a
+      md5: 4bc436a6f6df64a79c2f754a1b4b0a71
       size: 73

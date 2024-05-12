@@ -65,6 +65,10 @@ class Training:
     @staticmethod
     def save_model(path: Path, model: tf.keras.Model):
         model.save(path)
+        # Create a copy of the model in model/model.h5
+        copy_path = Path("model") / "model.h5"
+        os.makedirs(copy_path.parent, exist_ok=True)
+        model.save(copy_path)  # Save the copy
 
 
 
