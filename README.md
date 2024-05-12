@@ -26,7 +26,7 @@ The project follows a modular approach, organized into components and pipelines.
 
 You can view the pipeline image below to understand the workflow:
 
-![Pipeline Image](link-to-your-pipeline-image)
+![Pipeline Image](Pipeline_Flow.png)
 
 ## Project Repository 📁
 
