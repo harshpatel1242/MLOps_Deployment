@@ -89,7 +89,7 @@ stages:
       nfiles: 465
     - path: artifacts/training/model.h5
       hash: md5
-      md5: 00636781d4fa57a19a08d67a78e6c066
+      md5: 0b45e9d8841a6aeda994d480f0ca5724
       size: 59337520
     - path: config/config.yaml
       hash: md5
@@ -109,5 +109,5 @@ stages:
     outs:
     - path: scores.json
       hash: md5
-      md5: 4bc436a6f6df64a79c2f754a1b4b0a71
+      md5: ec2f22f5a64fe584030b65c7b5bbc790
       size: 73
