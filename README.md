@@ -1,4 +1,4 @@
-#MLOps Deployment Project 🚀
+# MLOps Deployment Project 🚀
 
 This project adopts a modular, object-oriented Pythonic approach for Machine Learning Operations (MLOps), harnessing a diverse range of tools and services. Below, you'll find the key components and tools integral to this project:
 
