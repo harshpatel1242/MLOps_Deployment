@@ -26,7 +26,7 @@ The project follows a modular approach, organized into components and pipelines.
 
 You can view the pipeline image below to understand the workflow:
 
-![Pipeline Flow]([https://raw.githubusercontent.com/your-username/your-repository/main/Pipeline_Flow.png](https://github.com/harshpatel1242/MLOps_Deployment/blob/master/Pipeline_Flow.PNG))
+![Pipeline Flow](https://github.com/harshpatel1242/MLOps_Deployment/blob/master/Pipeline_Flow.PNG)
 
 
 ## Project Repository 📁
