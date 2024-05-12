@@ -22,12 +22,15 @@ The project follows a modular approach, organized into components and pipelines.
 - **Docker:** Containerization technology for packaging applications and dependencies.
 - **Streamlit:** Web application framework used for interactive data visualization.
 
-## Pipeline Image 📊
+## CI/CD with GitHub Actions 🚀
 
-You can view the pipeline image below to understand the workflow:
+Continuous Integration and Continuous Deployment (CI/CD) pipelines are implemented using GitHub Actions. The pipelines automate the build, test, and deployment processes, delivering the project to AWS services.
 
-![Pipeline Flow](https://github.com/harshpatel1242/MLOps_Deployment/blob/master/Pipeline_Flow.PNG)
+[Check out CI/CD workflows](https://github.com/harshpatel1242/MLOps_Deployment/actions)
 
+## Pipeline Flow 📊
+
+![Pipeline Flow](https://raw.githubusercontent.com/username/repository/branch/path/to/Pipeline_Flow.png)
 
 ## Project Repository 📁
 
@@ -41,7 +44,9 @@ The project utilizes AWS Free Tier services for cloud computing, including EC2 f
 
 ## Artifact Storage 📂
 
-Artifacts, including data, models, logs, and outputs, are automatically generated when the project is run. 
+All project artifacts, including data, models, and logs, are stored on Google Drive.
+
+Feel free to explore the project repository for more details and contributions.
 
 ## Data Access 📊
 
