@@ -41,6 +41,11 @@ The project utilizes AWS Free Tier services for cloud computing, including EC2 f
 
 ## Artifact Storage 📂
 
-All project artifacts, including data, models, and logs, are stored on Google Drive.
+Artifacts, including data, models, logs, and outputs, are automatically generated when the project is run. 
 
-Feel free to explore the project repository for more details and contributions.
+## Data Access 📊
+
+The project's data can be accessed from Google Drive using the following link:
+
+[Google Drive Data Link](https://drive.google.com/file/d/1Q02T8c6-BRC32TbSFqZdLpR9UdVeVpHS/view?usp=drive_link)
+
