@@ -1,8 +1,6 @@
-# MLOps Deployment Project 🚀
+#MLOps Deployment Project 🚀
 
-This project implements a modular object-oriented Pythonic approach to writing code, creating files like `config.yaml`, a utils file, and a configuration manager file to handle all configurations. Additionally, a components folder was created for strategies and two pipelines were implemented: training and prediction. The training pipeline includes data ingestion, base model creation, model training, and evaluation.
-
-DVC orchestrates the pipeline, while MLflow manages model registry. Two images are included: one for all model experiments and one for model comparison. Docker is used for containerization. GitHub Actions and runners facilitate CI/CD, followed by deployment on AWS with EC2 and ECR.
+This project adopts a modular, object-oriented Pythonic approach for Machine Learning Operations (MLOps), harnessing a diverse range of tools and services. Below, you'll find the key components and tools integral to this project:
 
 ## Modular Approach 🔧
 
