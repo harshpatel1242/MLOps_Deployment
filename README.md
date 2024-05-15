@@ -2,6 +2,9 @@
 
 This project adopts a modular, object-oriented Pythonic approach for Machine Learning Operations (MLOps), harnessing a diverse range of tools and services. Below, you'll find the key components and tools integral to this project:
 
+## DEMO🎬
+[Watch the whole demo](https://drive.google.com/file/d/1ZuosbHW7YJ1soTle8JtJq1kaHALJf7Ss/view?usp=sharing)
+
 ## Modular Approach 🔧
 
 The project follows a modular approach, organized into components and pipelines:
